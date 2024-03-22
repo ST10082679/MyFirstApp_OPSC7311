@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         Toast.makeText(this@MainActivity, "MMM" + order.productName, Toast.LENGTH_SHORT).show()
 
         openIntent(this, order.productName, OrderDetailsActivity::class.java)
+       // val
     }
 }
 
